@@ -27,13 +27,9 @@ FAIR1M-1.0
 
 ## Installation
 
-Please refer to [install.md](docs/zh_cn/install.md) for installation and dataset preparation.
+Please refer to [install.md](docs/zh_cn/install.md) for installation.
 
 ## Get Started
-
-### How to use mmrotate
-
-If you want to train or test a oriented model, please refer to [get_started.md](docs/zh_cn/get_started.md).
 
 ### How to Start DRNet
 
