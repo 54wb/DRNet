@@ -22,6 +22,16 @@ FAIR1M-1.0
 | R50-FPN | 1x | - | - | 2 |  40.87  |                 -                  | 
 | R50-FPN | 1x | √ | √ | 2 |  45.82  | - |
 
+## Results and models
+
+### Fair1M1.0 dataset
+
+| Backbone | Lr schd |  mAP   |                                           Google Drive                                         |
+|:--------:|:-------:|:------:|:----------------------------------------------------------------------------------------------:|
+|  R50-FPN |    1x   |  40.87  | [model](https://drive.google.com/file/d/1h85bHRoqsUMPkjABNGP8I14Pbdxus8wX/view?usp=drive_link) |
+|  R50-FPN |    1x   |  45.82  | [model](https://drive.google.com/file/d/1YGIDXwD5ydH4U13KzFz0FggoPtOso5TE/view?usp=drive_link) |
+
+
 ## Installation
 
 Please refer to [install.md](docs/zh_cn/install.md) for installation and dataset preparation.
