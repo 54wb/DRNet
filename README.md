@@ -29,11 +29,9 @@ FAIR1M-1.0
 
 Please refer to [install.md](docs/zh_cn/install.md) for installation.
 
-## Get Started
+## How to Start DRNet
 
-### How to Start DRNet
-
-#### Dataset Prepare
+### Dataset Prepare
 
 Because the annotation format of FAIR1M is XML, it first needs to be converted to DOTA format
 
@@ -50,13 +48,13 @@ python tools/data/dota/split/img_split.py tools/data/dota/split/split_configs/ss
 python tools/data/dota/split/img_split.py tools/data/dota/split/split_configs/ss_test.json
 ```
 
-#### Train
+### Train
 
 ```bash
 python tools/train.py configs/drnet/drnet_r50_fpn_1x_fair1m_le90.py
 ```
 
-#### Test
+### Test
 
 ```bash
 python tools/test.py configs/drnet/drnet_r50_fpn_1x_fair1m_le90.py {ckpt_dir} --format-only --eval-options submission_dir={save_results_dir} nprco=1
