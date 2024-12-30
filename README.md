@@ -12,24 +12,17 @@ This is the official implementation of DRNet, which is implemented on [mmrotate]
 
 ## Results and models
 
-FAIR1M-1.0 12epochs: [Download]()   
+FAIR1M-1.0 12epochs: [Download](https://drive.google.com/file/d/1h85bHRoqsUMPkjABNGP8I14Pbdxus8wX/view?usp=drive_link)   
 
-FAIR1M-1.0 12epochs & Multi-Scale & Rotation Augmentation: [Download]()    
+FAIR1M-1.0 12epochs & Multi-Scale & Rotation Augmentation: [Download](https://drive.google.com/file/d/1YGIDXwD5ydH4U13KzFz0FggoPtOso5TE/view?usp=drive_link)    
 
 FAIR1M-1.0
 |                           Backbone                            |  lr schd  | ms | rr | Batch Size |                                   mAP                                    |                                                               Download                                                               |    
 | :--------------------------------------------------------: | :---: | :---: | :-----: | :--------: | :--------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | 
-| R50-FPN | 1x | - | - | 2 |  40.87  |                 -                  | 
-| R50-FPN | 1x | √ | √ | 2 |  45.82  | - |
+| R50-FPN | 1x | - | - | 2 |  40.87  |[Download](https://drive.google.com/file/d/1h85bHRoqsUMPkjABNGP8I14Pbdxus8wX/view?usp=drive_link)| 
+| R50-FPN | 1x | √ | √ | 2 |  45.82  |[Download](https://drive.google.com/file/d/1YGIDXwD5ydH4U13KzFz0FggoPtOso5TE/view?usp=drive_link)|
 
-## Results and models
 
-### Fair1M1.0 dataset
-
-| Backbone | Lr schd |  mAP   |                                           Google Drive                                         |
-|:--------:|:-------:|:------:|:----------------------------------------------------------------------------------------------:|
-|  R50-FPN |    1x   |  40.87  | [model](https://drive.google.com/file/d/1h85bHRoqsUMPkjABNGP8I14Pbdxus8wX/view?usp=drive_link) |
-|  R50-FPN |    1x   |  45.82  | [model](https://drive.google.com/file/d/1YGIDXwD5ydH4U13KzFz0FggoPtOso5TE/view?usp=drive_link) |
 
 
 ## Installation
