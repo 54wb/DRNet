@@ -27,7 +27,7 @@ FAIR1M-1.0
 
 ## Installation
 
-Please refer to [install.md](docs/zh_cn/install.md) for installation.
+Please refer to [install.md](docs/en/install.md) for installation.
 
 ## How to Start DRNet
 
